@@ -1,0 +1,47 @@
+﻿生成启动时间为 2022/3/6 11:07:34。
+     1>项目“D:\C.C++\一些小程序\邮件发送\EmailSend\EmailSend.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\EmailSend.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\EmailSend.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\EmailSend.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Base64.cpp EmailSend.cpp EmailSendDlg.cpp LogonDlg.cpp
+         LogonDlg.cpp
+         EmailSendDlg.cpp
+         EmailSend.cpp
+         Base64.cpp
+         正在生成代码...
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\EmailSend.res" EmailSend.rc 
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\EmailSend.exe.embed.manifest.res" .\Debug\EmailSend_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\EmailSend.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\EmailSend.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C.C++\一些小程序\邮件发送\EmailSend\Debug\EmailSend.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\EmailSend.lib" /MACHINE:X86 .\Debug\EmailSend.res
+         .\Debug\EmailSend.exe.embed.manifest.res
+         .\Debug\Base64.obj
+         .\Debug\EmailSend.obj
+         .\Debug\EmailSendDlg.obj
+         .\Debug\LogonDlg.obj
+         .\Debug\StdAfx.obj
+     1>LINK : warning LNK4076: 增量状态文件“.\Debug\EmailSend.ilk”无效(将删除)；正以非增量方式链接
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\EmailSend.exe.embed.manifest" /manifest .\Debug\EmailSend.exe.intermediate.manifest "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\EmailSend.exe.embed.manifest.res" .\Debug\EmailSend_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\EmailSend.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\EmailSend.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\C.C++\一些小程序\邮件发送\EmailSend\Debug\EmailSend.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\EmailSend.lib" /MACHINE:X86 .\Debug\EmailSend.res
+         .\Debug\EmailSend.exe.embed.manifest.res
+         .\Debug\Base64.obj
+         .\Debug\EmailSend.obj
+         .\Debug\EmailSendDlg.obj
+         .\Debug\LogonDlg.obj
+         .\Debug\StdAfx.obj
+         EmailSend.vcxproj -> D:\C.C++\一些小程序\邮件发送\EmailSend\.\Debug\EmailSend.exe
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\EmailSend.unsuccessfulbuild”。
+         正在对“.\Debug\EmailSend.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\C.C++\一些小程序\邮件发送\EmailSend\EmailSend.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.57

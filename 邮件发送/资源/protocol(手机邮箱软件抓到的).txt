@@ -1,0 +1,48 @@
+----->	220 163.com Anti-spam GT for Coremail System (163com[20141201])
+<-----	EHLO [10.0.8.1]
+----->	250-mail
+----->	250-PIPELINING
+----->	250-AUTH LOGIN PLAIN
+----->	250-AUTH=LOGIN PLAIN
+----->	250-coremail 1Uxr2xKj7kG0xkI17xGrU7I0s8FY2U3Uj8Cz28x1UUUUU7Ic2I0Y2UFAiiAxUCa0xDrUUUUj
+----->	250-STARTTLS
+----->	250 8BITMIME
+<-----	AUTH PLAIN AHFhejcyMTU2NjcwMUAxNjMuY29tAHFhejcyMTU2NjcwMQ==(0 user 0 password)
+----->	235 Authentication successful
+
+<-----	MAIL FROM:<qaz721566701@163.com>
+----->	250 Mail OK
+<-----	RCPT TO:<1557729811@qq.com>
+----->	250 Mail OK
+<-----	DATA
+----->	354 End data with <CR><LF>.<CR><LF>
+<-----	Date: Sat, 03 Aug 2019 21:36:27 +0800
+<-----	Subject: helloddf
+<-----	Message-ID: <rdl9hpd4b19lb3hv7sqkdrbf.1564839387207@email.vivo.com>
+<-----	From: qaz721566701 <qaz721566701@163.com>
+<-----	To: 1557729811 <1557729811@qq.com>
+<-----	MIME-Version: 1.0
+<-----	Content-Type: multipart/alternative; boundary="--_com.android.email_828228707071521"
+
+<-----	----_com.android.email_828228707071521
+<-----	Content-Type: text/plain; charset=utf-8
+<-----	Content-Transfer-Encoding: base64
+
+<-----	CgoKCuWPkeiHqnZpdm/mmbrog73miYvmnLo=
+<-----	----_com.android.email_828228707071521
+<-----	Content-Type: text/html; charset=utf-8
+<-----	Content-Transfer-Encoding: base64
+
+PCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCiAgICA8aGVhZD4NCiAgICAgICAgPG1ldGEgaHR0cC1l
+cXVpdj0iQ29udGVudC1UeXBlIiBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9VVRGLTgiPg0K
+ICAgICAgICA8IS0tPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13
+aWR0aCwgaW5pdGlhbC1zY2FsZT0xIiAvPi0tPg0KICAgICAgICA8dGl0bGU+aGVsbG9kZGY8L3Rp
+dGxlPg0KICAgICAgICA8c3R5bGU+DQogICAgICAgIDwvc3R5bGU+DQogICAgPC9oZWFkPg0KICAg
+IDxib2R5Pg0KICAgICAgICA8ZGl2IGlkPSJ2aXZvQ29udGFpbmVyIiA+DQogICAgICAgICAgICA8
+ZGl2IGlkPSJ2aXZvQm9keSI+PGJyPgo8YnI+Cjxicj4KPGJyPgrlj5Hoh6p2aXZv5pm66IO95omL
+5py6PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGlkPSJ2aXZvU2lnbiIgc3R5bGU9Im1hcmdpbi10
+b3A6IDFlbTsiPjwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICA8L2JvZHk+DQo8L2h0bWw+
+----_com.android.email_828228707071521--
+
+.
+554 DT:SPM 163 smtp9,DcCowADXaJjdjUVd33CFDw--.62134S2 1564839396,please see http://mail.163.com/help/help_spam_16.htm?ip=59.83.221.197&hostid=smtp9&time=1564839396

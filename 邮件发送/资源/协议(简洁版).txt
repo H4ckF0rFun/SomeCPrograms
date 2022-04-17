@@ -1,0 +1,52 @@
+/*----------------登录---------------*/
+------------>		1.接收
+220 ..........
+
+<------------		2.发送
+HELO smtp\r\n
+
+------------>
+250 OK\r\n
+<------------
+auth login\r\n
+------------>
+334 dXNlcm5hbWU6\r\n
+<------------
+(Base64username)\r\n
+------------>
+334 UGFzc3dvcmQ6\r\n
+<------------
+(Base64password)\r\n
+------------>
+235 Authentication successful\r\n
+
+/*----------------发送--------------*/
+<------------
+MAIL FROM:<username>\r\n
+
+------------>
+250 Mail OK\r\n
+
+<------------
+RCPT TO:<receiver>\r\n
+------------>
+250 Mail OK\r\n
+<------------
+DATA\r\n
+------------>
+354 End data with <CR><LF>.<CR><LF>
+<------------
+Subject:(subject)\r\n
+From:(username)\r\n
+To:(receiver)\r\n
+Cc:(抄送(好像是))\r\n
+
+\r\n
+正文:
+\r\n.\r\n结束
+------------->
+250 Mail OK queued as smtp12
+<-------------
+quit\r\n
+------------->
+221 Bye\r\n
